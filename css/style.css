@@ -14,14 +14,10 @@ body {
 
 .row {
   clear: both;
-  margin-bottom: 2%;
+  margin-bottom: 0;
 }
 
-section {
-  padding: 5px;
-  margin-bottom: 20px;
-  background: white;
-}
+
 
 .clearfix:after {
   content: ".";
@@ -52,6 +48,7 @@ section {
   height: 147px;
   padding: 0;
   background: #68c10f;
+  margin-left: 0;
 }
 
 .box2 {
@@ -60,6 +57,7 @@ section {
   height: 147px;
   padding: 0;
   background: #6FBEC6;
+  margin-left: 1px;
 }
 
 .box3 {
@@ -68,6 +66,7 @@ section {
   height: 147px;
   padding: 0;
   background: #a8dbc6;
+  margin-left: 1px;
 }
 
 td {
@@ -102,6 +101,29 @@ div {
 #first_text_paragraph {
   float:left;
 }
+
+/* ruth try again at the beach */
+
+#top_section {
+  width: 960px;
+  background: #ccc;
+  margin:0 auto;  /* this centers it */
+}
+
+.rcol-1 {
+  width: 66%;
+  float: left;
+  background: pink;
+  margin-left: 0;
+}
+
+.rcol-2 {
+  width: 32%;
+  float: left;
+  background: grey;
+  margin-left: 0;
+}
+
 
 
 /*/////// HEADER ///////*/
